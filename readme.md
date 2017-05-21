@@ -7,6 +7,7 @@ NOTE: Run these scripts at your own risk. I am not responsible if you break a Ma
 
 ###### Order of Operations:
 - Run the "setup-anchor" file first before proceeding to the "update-blocklist" file
+- Make the scripts executable by running "chmod +x scriptname.sh"
 
 ###### Functionality:
 - Emerging threats Blocklists
