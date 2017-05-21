@@ -6,15 +6,15 @@ NOTE: Run these scripts at your own risk. I am not responsible if you break a Ma
 Order of Operations:
 	Run the "setup-anchor" file first before proceeding to the "update-blocklist" file
 
-Functionality:
--Emerging threats Blocklists
--Hosts file blocklists
--IP blocklists do not proceed to run until internet connectivity is established.
-Interval is 10 seconds by default
+Functionality:_
+-Emerging threats Blocklists_
+-Hosts file blocklists_
+-IP blocklists do not proceed to run until internet connectivity is established._
+Interval is 10 seconds by default_
 
-Future Addons:
--Additional Malicious Blocklists
--GeoIP Blocklists
--Run at startup
+Future Addons:_
+-Additional Malicious Blocklists_
+-GeoIP Blocklists_
+-Run at startup_
 
 
