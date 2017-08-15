@@ -16,7 +16,7 @@ done
 VAR99="$(ls -l /etc/emerging-threats.txt | awk '{print $6, $7, $8}')"
 echo "[+] IP Blocklist file last updated: $VAR99"
 echo "[+] Updating IP Blocklist. Please wait..."
-(curl https://zeustracker.abuse.ch/blocklist.php?download=ipblocklist http://feeds.dshield.org/top10-2.txt http://www.spamhaus.org/drop/drop.lasso https://ransomwaretracker.abuse.ch/downloads/RW_IPBL.txt https://feodotracker.abuse.ch/blocklist/?download=ipblocklist https://labs.snort.org/feeds/ip-filter.blf https://reputation.alienvault.com/reputation.generic https://sslbl.abuse.ch/blacklist/sslipblacklist.csv https://sslbl.abuse.ch/blacklist/dyre_sslipblacklist.csv | grep -o '[0-9]\{1,3\}\.[0-9]\{1,3\}\.[0-9]\{1,3\}\.[0-9]\{1,3\}/*[0-9]\{1,2\}' > emerging-threats.txt) > /dev/null 2>&1
+(curl https://zeustracker.abuse.ch/blocklist.php?download=ipblocklist http://feeds.dshield.org/top10-2.txt http://www.spamhaus.org/drop/drop.lasso https://ransomwaretracker.abuse.ch/downloads/RW_IPBL.txt https://feodotracker.abuse.ch/blocklist/?download=ipblocklist https://labs.snort.org/feeds/ip-filter.blf https://sslbl.abuse.ch/blacklist/sslipblacklist.csv https://sslbl.abuse.ch/blacklist/dyre_sslipblacklist.csv | grep -o '[0-9]\{1,3\}\.[0-9]\{1,3\}\.[0-9]\{1,3\}\.[0-9]\{1,3\}/*[0-9]\{1,2\}' > emerging-threats.txt) > /dev/null 2>&1
 #VARIA outputs the first column of stdout of the wc command to the emerging-threats IP file
 VARIA="$(sudo wc emerging-threats.txt | awk '{print $1}')"
 sudo chmod 644 emerging-threats.txt
