@@ -9,7 +9,6 @@ I run this personally, so as long as there's no wonky setup on your mac, you sho
 ###### Order of Operations:
 - Run the "setup-anchor" file first before proceeding to the "update-emerging-threats" file
 - Make the scripts executable by running "chmod +x scriptname.sh"
-- Optionally, run the "cron-job.sh" script if you desire to run the script at 4 hour intervals
 
 ###### Functionality:
 - Emerging threats Blocklists
@@ -21,5 +20,6 @@ Interval is 10 seconds by default
 - Additional Malicious Blocklists
 - GeoIP Blocklists
 - Run at startup
+- Cronjob at 4 hour increments
 
 
