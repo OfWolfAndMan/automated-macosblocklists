@@ -17,6 +17,7 @@ I run this personally, so as long as there's no wonky setup on your mac, you sho
 Interval is 10 seconds by default
 
 ###### Future Addons:
+- Append additional host lists as needed
 - GeoIP Blocklists
 - Run at startup
 - Cronjob at 4 hour increments
