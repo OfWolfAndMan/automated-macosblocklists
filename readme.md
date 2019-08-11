@@ -15,6 +15,7 @@ I run this personally, so as long as there's no wonky setup on your mac, you sho
 - Hosts file blocklists
 - IP blocklists do not proceed to run until internet connectivity is established.
 Interval is 10 seconds by default
+- One-Time STIG hardening script for additional lockdown (One-time)
 
 ###### Future Addons:
 - Append additional host lists as needed
